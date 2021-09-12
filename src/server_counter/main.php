@@ -92,11 +92,10 @@ class main extends PluginBase implements Listener{
 			$status = strstr($status, 'MCPE');
 			$status = explode(';', $status);
 
-			$output = $status[4];
+			return $status[4];
 		}else{
-			$output = 'error';
-		}
-		return $output;
+		        return 'error';
+	        }
 	}
 
     public function query(QueryRegenerateEvent $event){
