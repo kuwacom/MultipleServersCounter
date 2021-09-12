@@ -1,0 +1,8 @@
+name: MultipleServersCounter
+main: server_counter\main
+version: 1.9
+api: [3.0.0]
+load: POSTWORLD
+author: kuwacom
+description: Sum the player count on multiple servers plugin.
+website: https://kuwa.cf
