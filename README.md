@@ -1,5 +1,9 @@
 # MultipleServersCounter
 複数サーバーのプレイヤー数をまとめるpmmpプラグイン  Sum the player count on multiple servers pmmp plugin.
+## 英語対応化お知らせ
+現在はまだ日本語のみのリリースですが英語にも対応予定です！
+Currently it is only released in Japanese
+but it will be available in English!
 # 使い方
 リリースよりリリースされている .phar をpluginsファイルに入れてください
 そうすると plugin_data に config.yml が生成されるはずです
