@@ -8,7 +8,7 @@ but it will be available in English!
 リリースよりリリースされている .phar をpluginsファイルに入れてください
 そうすると plugin_data に config.yml が生成されるはずです
 ```yml
-PluginPrefix: PlayserCounter #ログのプレフィックス
+PluginPrefix: PlayerCounter #ログのプレフィックス
 target_server:
   1:
     ip: be.kuwa.cf #取得先のサーバーのIP
