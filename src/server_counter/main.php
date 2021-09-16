@@ -10,10 +10,10 @@ use pocketmine\utils\TextFormat as color;
 
 class main extends PluginBase implements Listener{
 	public function onEnable(){
-		$this->getLogger()->info(color::GREEN.'PlayserCounter > 新規起動時は config.yml が生成されます！');
-		$this->getLogger()->info(color::GREEN.'PlayserCounter > ステータス取得先のサーバーIP Portを設定してください！');
+		$this->getLogger()->info(color::GREEN.'PlayerCounter > 新規起動時は config.yml が生成されます！');
+		$this->getLogger()->info(color::GREEN.'PlayerCounter > ステータス取得先のサーバーIP Portを設定してください！');
 		$config = new Config($this->getDataFolder() . "config.yml", Config::YAML,[
-			'PluginPrefix' => 'PlayserCounter',
+			'PluginPrefix' => 'PlayerCounter',
 			'target_server' => [
 				1 => [
 					'ip' => 'be.kuwa.cf',
